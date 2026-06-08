@@ -151,7 +151,7 @@ async function loadAPOD() {
 
     try {
         const response = await fetch(
-            `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`
+            `https://apod.nasa.gov/apod/astropix.html=${API_KEY}`
         );
 
         if (!response.ok) {
